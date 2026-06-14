@@ -16,8 +16,8 @@ también embebido como diccionario en los scripts que lo consumen.
   agregados recoge la Tabla 6.6 de la memoria.
 Estos ficheros se generaron con los scripts de `codigo/` a partir de los
 logs del pipeline, que se publican anonimizados en `logs_anonimizados/`
-y `logs_anonimizados_optimizados/`. La anonimización deja intactas las
-líneas de resultado de los tests, así que regenerarlos desde esos logs
-produce ficheros idénticos a los aquí incluidos. Al ejecutar los scripts
+y `logs_anonimizados_optimizados/`. De esos logs se conservan el
+estado y el tiempo de cada test (los nombres se han generalizado), así que
+regenerarlos produce ficheros idénticos a los aquí incluidos. Al ejecutar los scripts
 de preprocesado sobre los logs sintéticos de `ejemplo_logs/` se obtienen
 ficheros con idéntico nombre y formato, pero con los datos del ejemplo.
