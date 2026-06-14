@@ -1,0 +1,22 @@
+Datos/
+Datos_Optimizados/
+Resultados/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ipynb_checkpoints/
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Material de des-identificacion y trabajo local (NUNCA publicar)
+*.bak
+_*.py
+*.tex
+*.bak*

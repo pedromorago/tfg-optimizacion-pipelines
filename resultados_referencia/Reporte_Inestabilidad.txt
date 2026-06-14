@@ -1,0 +1,168 @@
+================================================================================
+REPORTE DE DEUDA TÉCNICA OPERATIVA (FALLOS Y REINTENTOS)
+================================================================================
+
+Tests con fallos detectados: 26
+Tiempo total improductivo (global): 107.62 minutos
+Media de tiempo improductivo por ciclo de CI/CD: 26.90 minutos
+
+--------------------------------------------------------------------------------
+DETALLE DE TESTS CON DEUDA (ORDENADOS POR MAYOR IMPACTO)
+--------------------------------------------------------------------------------
+
+Módulo: admin
+Spec:   src/tests/admin/business-unit.spec.ts
+Test:   › Business unit › caso 4
+        - Tiempo medio saneado (éxito):  0.1596 min
+        - Tiempo improductivo (total ✘): 6.8000 min
+
+Módulo: admin
+Spec:   src/tests/admin/custom-fields-managements.spec.ts
+Test:   › Custom fields managements › caso 2
+        - Tiempo medio saneado (éxito):  N/A (Nunca finalizó con éxito)
+        - Tiempo improductivo (total ✘): 6.8000 min
+
+Módulo: admin
+Spec:   src/tests/admin/custom-fields-managements.spec.ts
+Test:   › Custom fields managements › caso 3
+        - Tiempo medio saneado (éxito):  N/A (Nunca finalizó con éxito)
+        - Tiempo improductivo (total ✘): 6.8000 min
+
+Módulo: admin
+Spec:   src/tests/admin/custom-fields-managements.spec.ts
+Test:   › Custom fields managements › caso 4
+        - Tiempo medio saneado (éxito):  N/A (Nunca finalizó con éxito)
+        - Tiempo improductivo (total ✘): 6.8000 min
+
+Módulo: admin
+Spec:   src/tests/admin/custom-fields-managements.spec.ts
+Test:   › Custom fields managements › caso 6
+        - Tiempo medio saneado (éxito):  0.1608 min
+        - Tiempo improductivo (total ✘): 6.8000 min
+
+Módulo: admin
+Spec:   src/tests/admin/login.spec.ts
+Test:   › Login › caso 4
+        - Tiempo medio saneado (éxito):  0.0442 min
+        - Tiempo improductivo (total ✘): 6.8000 min
+
+Módulo: admin
+Spec:   src/tests/admin/user-profile.spec.ts
+Test:   › User profile › caso 5
+        - Tiempo medio saneado (éxito):  0.0708 min
+        - Tiempo improductivo (total ✘): 6.8000 min
+
+Módulo: admin
+Spec:   src/tests/admin/user.spec.ts
+Test:   › User › caso 7
+        - Tiempo medio saneado (éxito):  0.1933 min
+        - Tiempo improductivo (total ✘): 6.8000 min
+
+Módulo: catalog
+Spec:   src/tests/catalog/finding.spec.ts
+Test:   › Finding › caso 2
+        - Tiempo medio saneado (éxito):  0.1375 min
+        - Tiempo improductivo (total ✘): 6.8000 min
+
+Módulo: catalog
+Spec:   src/tests/catalog/scenario.spec.ts
+Test:   › Scenario › caso 2
+        - Tiempo medio saneado (éxito):  0.0942 min
+        - Tiempo improductivo (total ✘): 6.8000 min
+
+Módulo: catalog
+Spec:   src/tests/catalog/score-calculations.spec.ts
+Test:   › Score calculations › caso 2
+        - Tiempo medio saneado (éxito):  0.0771 min
+        - Tiempo improductivo (total ✘): 6.8000 min
+
+Módulo: catalog
+Spec:   src/tests/catalog/score-calculations.spec.ts
+Test:   › Score calculations › caso 4
+        - Tiempo medio saneado (éxito):  0.0775 min
+        - Tiempo improductivo (total ✘): 6.8000 min
+
+Módulo: catalog
+Spec:   src/tests/catalog/tag-patterns.spec.ts
+Test:   › Tag patterns › caso 2
+        - Tiempo medio saneado (éxito):  0.0775 min
+        - Tiempo improductivo (total ✘): 6.8000 min
+
+Módulo: admin
+Spec:   src/tests/admin/user.spec.ts
+Test:   › User › caso 14
+        - Tiempo medio saneado (éxito):  0.8821 min
+        - Tiempo improductivo (total ✘): 3.4000 min
+
+Módulo: catalog
+Spec:   src/tests/catalog/category.spec.ts
+Test:   › Category › caso 10
+        - Tiempo medio saneado (éxito):  0.0775 min
+        - Tiempo improductivo (total ✘): 3.4000 min
+
+Módulo: admin
+Spec:   src/tests/admin/business-unit.spec.ts
+Test:   › Business unit › caso 5
+        - Tiempo medio saneado (éxito):  0.0529 min
+        - Tiempo improductivo (total ✘): 1.7000 min
+
+Módulo: admin
+Spec:   src/tests/admin/issue-trackers-profiles.spec.ts
+Test:   › Issue trackers profiles › caso 12
+        - Tiempo medio saneado (éxito):  0.3992 min
+        - Tiempo improductivo (total ✘): 1.7000 min
+
+Módulo: admin
+Spec:   src/tests/admin/issue-trackers-profiles.spec.ts
+Test:   › Issue trackers profiles › caso 6
+        - Tiempo medio saneado (éxito):  0.3450 min
+        - Tiempo improductivo (total ✘): 1.7000 min
+
+Módulo: admin
+Spec:   src/tests/admin/user.spec.ts
+Test:   › User › caso 15
+        - Tiempo medio saneado (éxito):  0.1608 min
+        - Tiempo improductivo (total ✘): 1.7000 min
+
+Módulo: editor
+Spec:   src/tests/editor/block-inspector.spec.ts
+Test:   › Block inspector › caso 1
+        - Tiempo medio saneado (éxito):  0.4067 min
+        - Tiempo improductivo (total ✘): 1.7000 min
+
+Módulo: projects-1
+Spec:   src/tests/projects-1/automations.spec.ts
+Test:   › Automations › caso 3
+        - Tiempo medio saneado (éxito):  0.3604 min
+        - Tiempo improductivo (total ✘): 1.7000 min
+
+Módulo: projects-1
+Spec:   src/tests/projects-1/findings.spec.ts
+Test:   › Findings › caso 3
+        - Tiempo medio saneado (éxito):  0.2250 min
+        - Tiempo improductivo (total ✘): 1.7000 min
+
+Módulo: projects-1
+Spec:   src/tests/projects-1/findings.spec.ts
+Test:   › Findings › caso 5
+        - Tiempo medio saneado (éxito):  0.2196 min
+        - Tiempo improductivo (total ✘): 0.2200 min
+
+Módulo: admin
+Spec:   src/tests/admin/user-profile.spec.ts
+Test:   › User profile › caso 11
+        - Tiempo medio saneado (éxito):  0.0854 min
+        - Tiempo improductivo (total ✘): 0.1617 min
+
+Módulo: admin
+Spec:   src/tests/admin/custom-fields.spec.ts
+Test:   › Custom fields › caso 39
+        - Tiempo medio saneado (éxito):  0.0721 min
+        - Tiempo improductivo (total ✘): 0.0717 min
+
+Módulo: catalog
+Spec:   src/tests/catalog/library.spec.ts
+Test:   › Library › caso 24
+        - Tiempo medio saneado (éxito):  0.1429 min
+        - Tiempo improductivo (total ✘): 0.0633 min
+

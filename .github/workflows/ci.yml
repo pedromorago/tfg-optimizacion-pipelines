@@ -1,0 +1,43 @@
+name: CI
+run-name: Verificación de reproducibilidad de la etapa de datos
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  reproducibilidad:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Instalar dependencias
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install -r requirements.txt
+
+      - name: Comprobacion sintactica
+        run: python -m compileall codigo
+
+      - name: Regenerar salidas de la etapa de datos
+        run: |
+          cd codigo
+          python generar_datos_real.py
+          python generar_datos_saneado.py
+          python analisis_flakys.py
+          python generar_datos_real_optimizados.py
+
+      - name: Verificar reproducibilidad frente a las referencias versionadas
+        run: |
+          diff -u datos_derivados/datos_pipeline_real.txt            Resultados/datos_pipeline_real.txt
+          diff -u datos_derivados/datos_pipeline_saneado.txt         Resultados/datos_pipeline_saneado.txt
+          diff -u datos_derivados/datos_pipeline_real_optimizado.txt Resultados/datos_pipeline_real_optimizado.txt
+          diff -u resultados_referencia/Reporte_Inestabilidad.txt    Resultados/Reporte_Inestabilidad.txt

@@ -1,0 +1,36 @@
+==============================================================================
+CASO B - PPO CON CONTENCION DE COSTE
+==============================================================================
+Estado de la selección de configuración: TIME_LIMIT
+Estado de la restauración de eficiencia: OPTIMAL
+Contenedores activados: 4
+Tiempo de validación (T_val): 47.9630 min
+Cota inferior (Sección 3.5.1): 47.9625 min
+Gap (T_val - cota): 0.0005 min (0.03 s)
+Coste total alcanzado: 7.67 USD
+Desviación temporal (superávit): 14.96 min
+Desviación económica (superávit): 0.07 USD
+------------------------------------------------------------------------------
+Meta temporal: 33.00 min
+Meta económica: 7.60 USD
+Pesos (W_t, W_c): (1.00, 8.00)
+==============================================================================
+Nota: el tiempo de validación óptimo de la configuración está contenido en [cota, T_val]. Con estado OPTIMAL, T_val es el óptimo demostrado y el gap recoge solo la holgura de la cota; con TIME_LIMIT, el gap acota la distancia de T_val al óptimo.
+==============================================================================
+
+CONTENEDOR 1 (Tiempo total: 47.96 min | Carga neta: 31.63 min)
+------------------------------------------------------------------------------
+src/tests/rules/rules.spec.ts src/tests/projects-1/automations.spec.ts src/tests/catalog/component.spec.ts src/tests/admin/custom-fields.spec.ts src/tests/projects-1/floating-modals.spec.ts src/tests/reporting/dashboard.spec.ts src/tests/projects-1/findings.spec.ts src/tests/catalog/asset.spec.ts src/tests/editor/project-import.spec.ts src/tests/catalog/content-hub.spec.ts src/tests/admin/features.spec.ts src/tests/admin/license.spec.ts src/tests/admin/support.spec.ts src/tests/admin/email.spec.ts src/tests/reporting/archive-projects/archive-projects-restore-and-delete.spec.ts src/tests/reporting/version-dashboard.spec.ts
+
+CONTENEDOR 2 (Tiempo total: 47.96 min | Carga neta: 31.63 min)
+------------------------------------------------------------------------------
+src/tests/reporting/reports-generation.spec.ts src/tests/admin/custom-fields-managements.spec.ts src/tests/admin/business-unit.spec.ts src/tests/admin/issue-trackers-profiles.spec.ts src/tests/catalog/finding.spec.ts src/tests/catalog/tag-patterns.spec.ts src/tests/admin/login.spec.ts src/tests/catalog/category.spec.ts src/tests/projects-1/custom-views.spec.ts src/tests/admin/audit-log.spec.ts src/tests/rules/questionnaire.spec.ts src/tests/catalog/form-template.spec.ts src/tests/reporting/archive-projects/archive-projects-without-archived-license.spec.ts src/tests/editor/data-import.spec.ts src/tests/editor/unassigned-block.spec.ts
+
+CONTENEDOR 3 (Tiempo total: 47.96 min | Carga neta: 31.63 min)
+------------------------------------------------------------------------------
+src/tests/admin/user.spec.ts src/tests/admin/project-ownership.spec.ts src/tests/editor/zone-block.spec.ts src/tests/admin/workflow-state.spec.ts src/tests/catalog/zone.spec.ts src/tests/projects-2/templates.spec.ts src/tests/catalog/standard.spec.ts src/tests/projects-1/issue-tracker-profiles.spec.ts src/tests/reporting/templates-dashboard.spec.ts src/tests/editor/questionnaire.spec.ts src/tests/reporting/dashboard-empty.spec.ts src/tests/reporting/project-list.spec.ts src/tests/editor/block-with-user.spec.ts src/tests/admin/role.spec.ts src/tests/reporting/project-dashboard.spec.ts src/tests/editor/restore-previous-board.spec.ts src/tests/admin/workflow-state-change.spec.ts src/tests/admin/analytics-settings.spec.ts src/tests/admin/api.spec.ts src/tests/admin/user-interface.spec.ts src/tests/projects-1/configuration.spec.ts src/tests/reporting/archive-projects/archive-projects-with-archived-license.spec.ts
+
+CONTENEDOR 4 (Tiempo total: 47.96 min | Carga neta: 31.63 min)
+------------------------------------------------------------------------------
+src/tests/admin/business-unit-permissions-bulk.spec.ts src/tests/catalog/score-calculations.spec.ts src/tests/catalog/scenario.spec.ts src/tests/projects-2/projects.spec.ts src/tests/catalog/library.spec.ts src/tests/admin/user-profile.spec.ts src/tests/editor/block-inspector.spec.ts src/tests/projects-2/versions.spec.ts src/tests/catalog/record-classification.spec.ts src/tests/catalog/record.spec.ts src/tests/reporting/reports-workflows.spec.ts src/tests/catalog/automations.spec.ts src/tests/projects-2/records.spec.ts src/tests/admin/redirection.spec.ts src/tests/reporting/dashboard-cross-domain.spec.ts src/tests/editor/artifact.spec.ts src/tests/reporting/navigation.spec.ts src/tests/rules/workflow-rule.spec.ts src/tests/admin/header.spec.ts src/tests/admin/issue-trackers-profiles-empty.spec.ts src/tests/editor/restore-default-zone.spec.ts
+

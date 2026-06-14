@@ -1,0 +1,12 @@
+Running 7 tests using 1 worker
+
+  ✓  1 [chrome] › src/tests/modulo_a/login.spec.ts:12:5 › Login › usuario valido inicia sesion (30s)
+  ✓  2 [chrome] › src/tests/modulo_a/perfil.spec.ts:24:5 › Perfil › cambia idioma y guarda (1m)
+  ✓  3 [chrome] › src/tests/modulo_b/listado.spec.ts:8:5 › Listado › pagina y filtra resultados (45s)
+  ✘  4 [chrome] › src/tests/modulo_b/exportacion.spec.ts:30:9 › Exportacion › exporta a CSV (20s)
+  ✓  4 [chrome] › src/tests/modulo_b/exportacion.spec.ts:30:9 › Exportacion › exporta a CSV (retry #1) (40s)
+  ✓  5 [chrome] › src/tests/modulo_c/configuracion.spec.ts:5:5 › Configuracion › guarda ajustes generales (15s)
+  ✘  6 [chrome] › src/tests/modulo_c/configuracion.spec.ts:40:9 › Configuracion › sincroniza con servicio externo (25s)
+  -  7 [chrome] › src/tests/modulo_c/configuracion.spec.ts:60:9 › Configuracion › exporta informe beta
+
+  5 passed, 1 flaky, 1 failed, 1 skipped (2.8m)

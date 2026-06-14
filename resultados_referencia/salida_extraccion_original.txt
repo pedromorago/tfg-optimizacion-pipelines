@@ -1,0 +1,14 @@
+==========================================================================================
+EXTRACCIÓN EMPÍRICA - CONFIGURACIÓN ORIGINAL
+==========================================================================================
+Contenedor 1 (Admin): carga neta = 43.02 min | tiempo total observado = 59.73 min | setup deducido = 16.71 min
+Contenedor 2 (Catalog): carga neta = 30.00 min | tiempo total observado = 46.48 min | setup deducido = 16.48 min
+Contenedor 3 (Reporting): carga neta = 14.53 min | tiempo total observado = 30.35 min | setup deducido = 15.82 min
+Contenedor 4 (Projects A): carga neta = 11.57 min | tiempo total observado = 27.71 min | setup deducido = 16.14 min
+Contenedor 5 (Editor): carga neta = 9.95 min | tiempo total observado = 26.87 min | setup deducido = 16.92 min
+Contenedor 6 (Rules): carga neta = 9.76 min | tiempo total observado = 25.95 min | setup deducido = 16.19 min
+Contenedor 7 (Projects B): carga neta = 7.70 min | tiempo total observado = 23.75 min | setup deducido = 16.05 min
+------------------------------------------------------------------------------------------
+MAKESPAN OBSERVADO: 59.73 min
+COSTE TOTAL OBSERVADO: 9.63 USD
+SETUP MEDIO DEDUCIDO: 16.33 min

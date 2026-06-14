@@ -1,0 +1,25 @@
+========================================================================================================
+FRONTERA DE PARETO COSTE-TIEMPO
+Intervalo [cota inferior, tiempo de validación] por nivel de paralelismo (N)
+========================================================================================================
+Solver: CBC  |  timeLimit = 120 s  |  gapRel = 0.0  |  gapAbs = 0.00095 min  |  precisión de los datos = 0.001 min
+El tiempo de validación óptimo está contenido en [cota inferior, T_val]; el gap = T_val - cota
+acota superiormente su distancia al óptimo.
+--------------------------------------------------------------------------------------------------------
+  N |  Estado CBC | Cota inf. (min) |   T_val (min) | Gap (min) | Gap (s) | Coste (USD)
+--------------------------------------------------------------------------------------------------------
+  3 |     OPTIMAL |         58.5067 |       58.5070 |    0.0003 |    0.02 |        7.02
+  4 |     OPTIMAL |         47.9625 |       47.9630 |    0.0005 |    0.03 |        7.67
+  5 |     OPTIMAL |         41.6360 |       41.6360 |    0.0000 |    0.00 |        8.33
+  6 |  TIME_LIMIT |         37.4183 |       37.4200 |    0.0017 |    0.10 |        8.98
+  7 |  TIME_LIMIT |         34.4057 |       34.4090 |    0.0033 |    0.20 |        9.63
+  8 |  TIME_LIMIT |         32.1462 |       32.1490 |    0.0028 |    0.17 |       10.29
+  9 |  TIME_LIMIT |         30.3889 |       30.4000 |    0.0111 |    0.67 |       10.94
+ 10 |  TIME_LIMIT |         28.9830 |       28.9900 |    0.0070 |    0.42 |       11.59
+ 11 |  TIME_LIMIT |         27.8327 |       27.8400 |    0.0073 |    0.44 |       12.25
+ 12 |  TIME_LIMIT |         26.8742 |       26.8780 |    0.0038 |    0.23 |       12.90
+ 13 |  TIME_LIMIT |         26.0631 |       26.0710 |    0.0079 |    0.48 |       13.55
+ 14 |     OPTIMAL |         25.9300 |       25.9300 |    0.0000 |    0.00 |       14.21
+========================================================================================================
+Nota: con estado OPTIMAL, T_val es el óptimo demostrado; un gap no nulo es
+entonces la holgura de la cota teórica respecto al óptimo, no suboptimalidad.

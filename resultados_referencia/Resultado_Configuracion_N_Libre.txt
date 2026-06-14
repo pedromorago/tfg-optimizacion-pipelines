@@ -1,0 +1,114 @@
+========================================================================
+CONFIGURACIÓN ÓPTIMA CON NÚMERO DE CONTENEDORES LIBRE
+========================================================================
+Datos: 74 specs | S = 16.33 min | Cu = 0.04 USD/min | M_MAX = 20
+Cota inferior teórica del tiempo (3.5.1): 25.93 min
+Objetivo: min Sum(z_i)  s.a.  T_val <= 25.93
+
+========================================================================
+RESULTADO
+========================================================================
+  Estado del solver (CBC):  OPTIMAL
+  N (contenedores activos): 14
+  T_val (makespan):         25.93 min
+  Coste total:              14.21 USD
+
+  Asignación por contenedor activo:
+    Contenedor  1  ->  t =  25.14 min   (4 specs)
+           2.643 min   projects-2/projects.spec.ts
+           2.579 min   admin/workflow-state.spec.ts
+           2.444 min   admin/user-profile.spec.ts
+           1.141 min   admin/redirection.spec.ts
+    Contenedor  2  ->  t =  25.89 min   (4 specs)
+           2.915 min   admin/issue-trackers-profiles.spec.ts
+           2.511 min   catalog/zone.spec.ts
+           2.359 min   reporting/dashboard.spec.ts
+           1.770 min   projects-1/findings.spec.ts
+    Contenedor  3  ->  t =  24.69 min   (2 specs)
+           5.645 min   admin/project-ownership.spec.ts
+           2.711 min   catalog/finding.spec.ts
+    Contenedor  4  ->  t =  25.00 min   (2 specs)
+           8.197 min   reporting/reports-generation.spec.ts
+           0.472 min   admin/audit-log.spec.ts
+    Contenedor  5  ->  t =  25.23 min   (3 specs)
+           6.852 min   admin/user.spec.ts
+           1.696 min   catalog/asset.spec.ts
+           0.356 min   reporting/project-dashboard.spec.ts
+    Contenedor  6  ->  t =  24.80 min   (5 specs)
+           4.558 min   editor/zone-block.spec.ts
+           1.757 min   catalog/record-classification.spec.ts
+           1.255 min   reporting/reports-workflows.spec.ts
+           0.759 min   catalog/content-hub.spec.ts
+           0.146 min   rules/workflow-rule.spec.ts
+    Contenedor  7  ->  t =  25.92 min   (7 specs)
+           2.468 min   projects-1/floating-modals.spec.ts
+           1.931 min   projects-2/templates.spec.ts
+           1.913 min   projects-2/versions.spec.ts
+           1.376 min   editor/project-import.spec.ts
+           1.213 min   projects-2/records.spec.ts
+           0.348 min   editor/restore-previous-board.spec.ts
+           0.340 min   admin/workflow-state-change.spec.ts
+    Contenedor  8  ->  t =  25.93 min   (1 specs)
+           9.600 min   rules/rules.spec.ts
+    Contenedor  9  ->  t =  24.73 min   (4 specs)
+           3.704 min   catalog/score-calculations.spec.ts
+           2.659 min   catalog/scenario.spec.ts
+           1.875 min   admin/login.spec.ts
+           0.165 min   reporting/navigation.spec.ts
+    Contenedor 10  ->  t =  25.65 min   (4 specs)
+           4.348 min   admin/business-unit-permissions-bulk.spec.ts
+           2.599 min   catalog/library.spec.ts
+           1.689 min   catalog/standard.spec.ts
+           0.681 min   reporting/templates-dashboard.spec.ts
+    Contenedor 11  ->  t =  25.59 min   (9 specs)
+           5.166 min   projects-1/automations.spec.ts
+           1.226 min   catalog/automations.spec.ts
+           0.578 min   editor/questionnaire.spec.ts
+           0.513 min   reporting/dashboard-empty.spec.ts
+           0.496 min   reporting/project-list.spec.ts
+           0.493 min   editor/block-with-user.spec.ts
+           0.470 min   reporting/dashboard-cross-domain.spec.ts
+           0.313 min   editor/artifact.spec.ts
+           0.010 min   catalog/form-template.spec.ts
+    Contenedor 12  ->  t =  24.93 min   (3 specs)
+           3.346 min   admin/business-unit.spec.ts
+           3.008 min   admin/custom-fields.spec.ts
+           2.251 min   editor/block-inspector.spec.ts
+    Contenedor 13  ->  t =  25.88 min   (11 specs)
+           3.150 min   catalog/component.spec.ts
+           2.683 min   catalog/tag-patterns.spec.ts
+           1.532 min   catalog/category.spec.ts
+           1.431 min   projects-1/issue-tracker-profiles.spec.ts
+           0.412 min   admin/role.spec.ts
+           0.067 min   admin/features.spec.ts
+           0.067 min   admin/api.spec.ts
+           0.067 min   admin/analytics-settings.spec.ts
+           0.065 min   admin/user-interface.spec.ts
+           0.065 min   admin/support.spec.ts
+           0.010 min   reporting/archive-projects/archive-projects-without-archived-license.spec.ts
+    Contenedor 14  ->  t =  25.77 min   (15 specs)
+           7.127 min   admin/custom-fields-managements.spec.ts
+           1.315 min   catalog/record.spec.ts
+           0.725 min   projects-1/custom-views.spec.ts
+           0.065 min   admin/license.spec.ts
+           0.064 min   admin/email.spec.ts
+           0.050 min   admin/header.spec.ts
+           0.010 min   rules/questionnaire.spec.ts
+           0.010 min   reporting/version-dashboard.spec.ts
+           0.010 min   reporting/archive-projects/archive-projects-with-archived-license.spec.ts
+           0.010 min   reporting/archive-projects/archive-projects-restore-and-delete.spec.ts
+           0.010 min   projects-1/configuration.spec.ts
+           0.010 min   editor/restore-default-zone.spec.ts
+           0.010 min   editor/unassigned-block.spec.ts
+           0.010 min   editor/data-import.spec.ts
+           0.010 min   admin/issue-trackers-profiles-empty.spec.ts
+
+========================================================================
+INTERPRETACIÓN
+========================================================================
+  Cota inferior teórica (3.5.1): S + max_j p_j = 16.33 + 9.6 = 25.93 min
+  El menor número de contenedores que la alcanza es N = 14 (óptimo certificado).
+  Con N = 13: tiempo mínimo = 16.33 + 9.733 = 26.06 min > 25.93: infactible.
+  Por tanto N = 14 es el límite inferior alcanzable del tiempo de validación,
+  y cualquier N >= 14 iguala ese tiempo sin mejorarlo.
+

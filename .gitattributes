@@ -1,0 +1,17 @@
+# Normalización de finales de línea para reproducibilidad
+* text=auto
+
+# Código y documentación en LF
+*.py text eol=lf
+*.md text eol=lf
+*.txt text eol=lf
+*.csv text eol=lf
+*.json text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+
+# Imágenes y binarios
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.pdf binary

@@ -1,0 +1,14 @@
+==========================================================================================
+EXTRACCIÓN EMPÍRICA - CONFIGURACIÓN OPTIMIZADA
+==========================================================================================
+Contenedor 1 (Split 1): carga neta = 17.19 min | tiempo total observado = 33.64 min | setup deducido = 16.45 min
+Contenedor 2 (Split 2): carga neta = 17.80 min | tiempo total observado = 34.03 min | setup deducido = 16.23 min
+Contenedor 3 (Split 3): carga neta = 17.88 min | tiempo total observado = 34.31 min | setup deducido = 16.43 min
+Contenedor 4 (Split 4): carga neta = 18.15 min | tiempo total observado = 34.13 min | setup deducido = 15.98 min
+Contenedor 5 (Split 5): carga neta = 18.17 min | tiempo total observado = 34.59 min | setup deducido = 16.42 min
+Contenedor 6 (Split 6): carga neta = 17.84 min | tiempo total observado = 34.57 min | setup deducido = 16.73 min
+Contenedor 7 (Split 7): carga neta = 18.18 min | tiempo total observado = 34.81 min | setup deducido = 16.63 min
+------------------------------------------------------------------------------------------
+MAKESPAN OBSERVADO: 34.81 min
+COSTE TOTAL OBSERVADO: 9.60 USD
+SETUP MEDIO DEDUCIDO: 16.41 min
