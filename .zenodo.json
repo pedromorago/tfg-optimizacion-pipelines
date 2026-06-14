@@ -1,0 +1,40 @@
+{
+  "upload_type": "software",
+  "title": "Optimización multicriterio de pipelines de pruebas automatizadas en integración continua",
+  "description": "Código y datos del Trabajo de Fin de Grado del mismo título. Modela la planificación de una suite de pruebas automatizadas sobre contenedores paralelos de integración continua como un problema de optimización multicriterio (MILP, frontera de Pareto y Programación por Objetivos), validado sobre datos reales anonimizados de un pipeline en producción.",
+  "language": "spa",
+  "access_right": "open",
+  "license": "MIT",
+  "version": "1.0.0",
+  "creators": [
+    {
+      "name": "Morago López-Vázquez, Pedro",
+      "affiliation": "Universidad de Cantabria"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Sánchez Ruiz, Lidia",
+      "type": "Supervisor",
+      "affiliation": "Universidad de Cantabria"
+    }
+  ],
+  "keywords": [
+    "optimización multicriterio",
+    "MILP",
+    "frontera de Pareto",
+    "programación por objetivos",
+    "integración continua",
+    "scheduling",
+    "investigación operativa",
+    "PuLP",
+    "CBC"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/pedromorago/tfg-optimizacion-pipelines",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    }
+  ]
+}
