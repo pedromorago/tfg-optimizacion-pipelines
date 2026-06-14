@@ -1,6 +1,6 @@
 # Optimización multicriterio de pipelines de pruebas automatizadas en integración continua
 
-[![CI](https://github.com/pedromorago/tfg-optimizacion-pipelines/actions/workflows/ci.yml/badge.svg)](https://github.com/pedromorago/tfg-optimizacion-pipelines/actions/workflows/ci.yml)
+[![CI](https://github.com/pedromorago/tfg-optimizacion-pipelines/actions/workflows/ci.yml/badge.svg)](https://github.com/pedromorago/tfg-optimizacion-pipelines/actions/workflows/ci.yml) [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20691511.svg)](https://doi.org/10.5281/zenodo.20691511)
  
 Código y datos de ejemplo del Trabajo de Fin de Grado del mismo título. El trabajo modela la planificación de una suite de pruebas automatizadas sobre contenedores paralelos de integración continua como un problema de optimización multicriterio (MILP, frontera de Pareto y Programación por Objetivos), validado sobre datos reales de un pipeline en producción.
  
@@ -127,4 +127,4 @@ El código se distribuye bajo licencia MIT (véase el fichero `LICENSE`).
  
 ## Cómo citar
  
-Morago López-Vázquez, P. *Optimización multicriterio de pipelines de pruebas automatizadas en integración continua*. Trabajo de Fin de Grado, Grado en Matemáticas, Universidad de Cantabria, 2026. https://github.com/pedromorago/tfg-optimizacion-pipelines
+Morago López-Vázquez, P. *Optimización multicriterio de pipelines de pruebas automatizadas en integración continua*. Trabajo de Fin de Grado, Grado en Matemáticas, Universidad de Cantabria, 2026. Código y datos archivados en Zenodo: https://doi.org/10.5281/zenodo.20691511
