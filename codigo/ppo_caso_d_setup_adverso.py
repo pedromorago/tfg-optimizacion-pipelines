@@ -27,7 +27,7 @@ A diferencia de los Casos B y C, donde las metas son extremas y los
 pesos asimétricos, este escenario combina:
 
   - Metas competitivas pero moderadas:
-      O_t = 35 min,    O_c = 22 USD
+      O_t = 35 min,    O_c = 8.80 USD
 
   - Ponderaciones iguales:
       W_t = 1,    W_c = 1
