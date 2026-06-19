@@ -13,7 +13,7 @@ Las metas se eligen en una región infactible respecto a la frontera
 de Pareto eficiente (Sección 6.2.2):
 
   - Meta temporal:   O_t = 28 min   (alcanzable solo con N >= 11)
-  - Meta económica:  O_c = 26 USD   (alcanzable solo con N <= 8)
+  - Meta económica:  O_c = 10.40 USD   (alcanzable solo con N <= 8)
 
 La incompatibilidad entre ambas metas obliga al modelo PPO a priorizar
 el cumplimiento de uno de los criterios. La ponderación
