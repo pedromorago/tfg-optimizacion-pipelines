@@ -171,7 +171,7 @@ def resolver_modelo(modelo) -> None:
     """
     Resuelve el modelo mediante CBC con límite temporal y gap relativo nulo.
     """
-    solver = pulp.PULP_CBC_CMD(msg=False, timeLimit=6000, gapRel=0.0)
+    solver = pulp.PULP_CBC_CMD(msg=False, timeLimit=120, gapRel=0.0)
     modelo.solve(solver)
 
 
